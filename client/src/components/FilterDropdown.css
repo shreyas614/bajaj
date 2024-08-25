@@ -1,0 +1,36 @@
+/* Dropdown Menu */
+.dropdown-menu {
+    display: none;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-item {
+    color: rgb(0, 0, 0); /* Ensures text color in dropdown items is white */
+}
+
+.dropdown-item.active {
+    background-color: #007bff; /* Optional: To indicate active item */
+    color: white; /* Ensures active item text color remains white */
+}
+
+/* Selected Options */
+.selected-options {
+    margin-top: 10px;
+}
+
+.selected-options .badge {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff; /* Optional: Badge background color */
+    color: white; /* Ensures text color in badges is white */
+}
+
+.close {
+    font-size: 1.2rem;
+    background: transparent;
+    border: none;
+    color: white; /* Ensures the close button color is white */
+}
